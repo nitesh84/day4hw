@@ -1,0 +1,63 @@
+.top img{
+    width: 100px;
+    height: 175px;
+}
+
+.movies .left{
+    width: 50%;
+    background-color: darkslategray;
+}
+.movies .right{
+    /* border: 1px solid darkblue; */
+    width: 50%;
+    background-size: cover; /* Scale the image to cover the entire div */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: center center;
+    background-image: 
+        linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+
+.movies .top{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    /* border: 1px solid red; */
+    padding: 1em;
+    gap: 1em;
+    border-radius: 0 10px 10px 0;
+}
+
+.movies .bottom{
+    padding: 1em;
+    
+}
+
+.movies h2{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.movies .topRight{
+    padding-top: 1em;
+}
+
+
+
+.movies .top .topRight span:nth-child(5){
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    padding: 0.2em;
+    font-size: medium;
+    font-weight: 400;
+    margin: 10px 10px 10px 0px;
+}
+
+
+.movies{
+    display: flex;
+    margin-bottom: 2em;
+    color: white;
+    border-radius: 10px;
+}
+

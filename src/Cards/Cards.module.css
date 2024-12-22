@@ -1,0 +1,24 @@
+
+.cards{
+    width: 15%;
+    height: 220px;
+}
+
+.top{
+    height: 80%;
+}
+
+.bottom{
+    height: 20%;
+    background-color: white;
+    padding-left: 1em;
+}
+
+.bottom p{
+    font-size: 10px;
+}
+
+.bottom h1{
+    font-weight: 900;
+    font-size: 0.9em;
+}
